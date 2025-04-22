@@ -10,6 +10,45 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+header {
+    background-color: #22f806;
+    height: 80px;
+    width: 100%;
+    position: fixed;  
+    top: 0;
+    left: 0;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-link{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #000;       
+    padding:  12px;            
+    border-radius: 8px;          
+    text-decoration: none;       
+    color: #1fff01d5;                 
+    background-color:  #000;       
+  }
+
+  .nav-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
 h1 {
     text-align: center;
     font-size: 40px;
@@ -19,6 +58,7 @@ h1 {
 }
 section {
     text-align: center;
+    padding-top: 90px;
 }
 .botones {
     background-color: #1fff01d5;
